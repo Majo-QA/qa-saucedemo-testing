@@ -1,5 +1,14 @@
 # Test Plan - SauceDemo
 
+| Campo | Valor |
+|---|---|
+| Proyecto | SauceDemo Testing |
+| Módulo | General (Login, Inventario, Carrito, Checkout) |
+| Autor | María Pimentel |
+| Fecha de creación | 24/09/2026 |
+| Versión | 1.1 |
+| Estado | En ejecución |
+
 ## 1. Objetivo
 
 Validar el correcto funcionamiento de los módulos principales del sitio SauceDemo (https://www.saucedemo.com/), garantizando que los flujos de inicio de sesión, gestión de productos, carrito de compras y checkout se comporten según lo esperado.
@@ -53,9 +62,11 @@ Al tratarse de un sistema ya construido, sin acceso al código fuente ni a docum
 
 ## 7. Riesgos
 
-- Al ser un sitio de demo público y de uso libre, SauceDemo podría sufrir cambios sin previo aviso por parte de Sauce Labs, lo cual afectaría la vigencia de los casos documentados.
-- No se cuenta con documentación oficial de requerimientos: el testing se basa en exploración propia, por lo que algunos comportamientos podrían interpretarse como bug cuando en realidad son intencionales (por ejemplo, el producto "Test.allTheThings() T-Shirt (Red)", que es un nombre intencional y no un error de carga de datos).
-- No se cuenta con acceso a base de datos ni logs del servidor, por lo que no es posible validar la persistencia real de los datos más allá del comportamiento visible en la interfaz.
+| # | Riesgo | Impacto | Probabilidad | Mitigación |
+|---|---|---|---|---|
+| R-01 | SauceDemo podría sufrir cambios sin previo aviso por parte de Sauce Labs | Medio | Baja | Revalidar casos periódicamente si se detectan cambios |
+| R-02 | Comportamientos intencionales podrían confundirse con bugs, al no contar con documentación oficial de requerimientos | Medio | Media | Investigar y confirmar antes de reportar (ej. caso "Test.allTheThings()") |
+| R-03 | No se cuenta con acceso a base de datos ni logs del servidor, limitando la validación de persistencia real de datos | Bajo | Alta | Limitar el alcance a comportamiento visible en la interfaz |
 
 ## 8. Usuarios de Prueba Disponibles
 
@@ -65,3 +76,10 @@ Al tratarse de un sistema ya construido, sin acceso al código fuente ni a docum
 | locked_out_user | secret_sauce | Login bloqueado con mensaje de error |
 | problem_user | secret_sauce | Login exitoso, pero con fallos visuales conocidos (imágenes incorrectas) |
 | performance_glitch_user | secret_sauce | Login exitoso, con demora simulada en la carga |
+
+## 9. Historial de Cambios
+
+| Versión | Fecha | Autor | Cambios realizados |
+|---|---|---|---|
+| 1.0 | 20/09/2026 | María Pimentel | Creación inicial del Test Plan |
+| 1.1 | 24/09/2026 | María Pimentel | Se agrega sección de Técnicas de Diseño de Pruebas Aplicadas; se convierte sección de Riesgos a formato de tabla |

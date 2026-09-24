@@ -5,7 +5,7 @@
 | Proyecto | SauceDemo Testing |
 | Módulo | General (Login, Inventario, Carrito, Checkout) |
 | Autor | María Pimentel |
-| Fecha de creación | 24/09/2026 |
+| Fecha de creación | 08/09/2026 |
 | Versión | 1.1 |
 | Estado | En ejecución |
 
@@ -81,5 +81,5 @@ Al tratarse de un sistema ya construido, sin acceso al código fuente ni a docum
 
 | Versión | Fecha | Autor | Cambios realizados |
 |---|---|---|---|
-| 1.0 | 20/09/2026 | María Pimentel | Creación inicial del Test Plan |
-| 1.1 | 24/09/2026 | María Pimentel | Se agrega sección de Técnicas de Diseño de Pruebas Aplicadas; se convierte sección de Riesgos a formato de tabla |
+| 1.0 | 08/09/2026 | María Pimentel | Creación inicial del Test Plan |
+| 1.1 | 24/09/2026 | María Pimentel | Se agrega sección de Técnicas de Diseño de Pruebas Aplicadas; se convierte sección de Riesgos a formato de tabla; se agrega tabla de metadata e Historial de Cambios |

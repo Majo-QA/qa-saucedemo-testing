@@ -6,7 +6,7 @@
 | Módulo | General (Login, Inventario, Carrito, Checkout) |
 | Autor | María Pimentel |
 | Fecha de creación | 08/09/2026 |
-| Versión | 1.1 |
+| Versión | 1.2 |
 | Estado | En ejecución |
 
 ## 1. Objetivo
@@ -27,6 +27,7 @@ Validar el correcto funcionamiento de los módulos principales del sitio SauceDe
 - Compatibilidad con navegadores obsoletos o dispositivos móviles.
 - Testing de accesibilidad (WCAG).
 - Validaciones de backend/base de datos.
+- Validaciones de registro de usuarios (longitud de campos, caracteres especiales), ya que el sitio no tiene registro y usa usuarios predefinidos.
 
 ## 3. Estrategia de Testing
 
@@ -83,3 +84,4 @@ Al tratarse de un sistema ya construido, sin acceso al código fuente ni a docum
 |---|---|---|---|
 | 1.0 | 08/09/2026 | María Pimentel | Creación inicial del Test Plan |
 | 1.1 | 24/09/2026 | María Pimentel | Se agrega sección de Técnicas de Diseño de Pruebas Aplicadas; se convierte sección de Riesgos a formato de tabla; se agrega tabla de metadata e Historial de Cambios |
+| 1.2 | 06/10/2026 | María Pimentel | Se agrega a Fuera del alcance la exclusión de validaciones de registro de usuarios (longitud y caracteres especiales), por no existir registro en el sitio |

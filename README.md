@@ -5,5 +5,10 @@ Test plan y casos de prueba funcionales del sitio [SauceDemo](https://www.sauced
 ## Contenido del proyecto
 
 - [Test Plan](./Test-Plan-SauceDemo.md)
-- Test Cases (próximamente)
+- Test Cases por módulo:
+  - [Login](Test-Cases/Test-Cases-Login.xlsx)
+  - [Inventory](Test-Cases/Test-Cases-Inventory.xlsx)
+  - [Cart](Test-Cases/Test-Cases-Cart.xlsx)
+  - [Checkout](Test-Cases/Test-Cases-Checkout.xlsx)
+  - E2E (próximamente)
 - Bug Report (próximamente)

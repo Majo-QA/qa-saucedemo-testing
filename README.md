@@ -11,4 +11,5 @@ Test plan y casos de prueba funcionales del sitio [SauceDemo](https://www.sauced
   - [Cart](Test-Cases/Test-Cases-Cart.xlsx)
   - [Checkout](Test-Cases/Test-Cases-Checkout.xlsx)
   - [E2E](Test-Cases/Test-Cases-E2E.xlsx)
-- Bug Report (próximamente)
+- Bug Report: [Bug-Report.xlsx](Bug-Report.xlsx)
+  - [Evidence](Evidence/)
